@@ -1,17 +1,23 @@
-## Instrukcja zakładania konta na GitHubie i klonowania projektu na macOS
+## Instrukcja zakładania konta na GitHubie, forkowania i klonowania projektu na macOS
 
 ### 1. Zakładanie konta na GitHubie:
-1. Otwórz przeglądarkę i odwiedź [GitHub](https://github.com/).
+1. Otwórz przeglądarkę i odwiedź [github](https://github.com/).
 2. Kliknij **Sign up**.
 3. Wypełnij formularz i kliknij **Create account**.
 4. Postępuj zgodnie z instrukcjami na ekranie.
 
-### 2. Instalacja Git za pomocą instalatora:
+### 2. Forkowanie repozytorium:
+1. Odwiedź repozytorium, które chcesz sforkować.
+2. W prawym górnym rogu, kliknij przycisk **Fork**.
+3. Wybierz konto, na które chcesz sforkować repozytorium (jeśli jesteś członkiem jakichkolwiek organizacji).
+4. Po zakończonym procesie forkowania, zostaniesz przeniesiony do swojej kopii repozytorium na Twoim koncie GitHub.
+
+### 3. Instalacja Git za pomocą instalatora:
 1. Przejdź na [Git Downloads](https://git-scm.com/downloads).
 2. Kliknij **Mac OS X** i pobierz instalator.
 3. Otwórz pobrany plik `.dmg` i postępuj zgodnie z instrukcjami.
 
-### 3. Konfiguracja Git:
+### 4. Konfiguracja Git:
 1. Otwórz **Terminal** (`Cmd + Spacja`, wpisz "Terminal").
 2. Wprowadź:
 
@@ -20,8 +26,8 @@ git config --global user.name "Twoja Nazwa"
 git config --global user.email twoj@email.com
 ```
 
-### 4. Klonowanie repozytorium:
-1. Odwiedź stronę projektu na GitHubie.
+### 5. Klonowanie repozytorium:
+1. Przejdź do sforkowanego repozytorium na Twoim koncie GitHub.
 2. Kliknij **Code** i skopiuj adres URL (opcja HTTPS).
 3. Otwórz Terminal, przejdź do odpowiedniej lokalizacji:
 
@@ -32,10 +38,10 @@ cd ~/Pulpit
 4. Klonuj repozytorium:
 
 ```bash
-git clone https://github.com/nazwaUzytkownika/nazwaRepozytorium.git
+git clone https://github.com/TwojNazwaUzytkownika/nazwaRepozytorium.git
 ```
 
-
+---
 ## Instrukcja dodawania commitów i pushowania na GitHub
 
 ### 1. Dodawanie zmian do indeksu (staging area):
