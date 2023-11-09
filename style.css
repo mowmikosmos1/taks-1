@@ -19,3 +19,7 @@ nav{
     display: flex;
     justify-content:space-between;
 }
+nav li:hover{
+    font-size: 25px;
+    color: blueviolet;
+}
