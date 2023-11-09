@@ -23,10 +23,15 @@
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
+
         </nav>
 
         <section id="o-mnie">
+            <button onclick="hideGreeting()">Schowaj powitanie</button>
+            <p id="greeting">Witaj na mojej stronie</p>
+            <button onclick="showGreeting()">Pokaz powitanie</button>
             <h2>O mnie</h2>
+
             <p>Przykładowy tekst o Janie Kowalskim i jego umiejętnościach.</p>
             <img src="przykladowe-zdjecie.jpg" alt="Zdjęcie Jana Kowalskiego">
         </section>
@@ -44,5 +49,17 @@
             <p>Telefon: 123 456 789</p>
         </footer>
     </div>
+    <script>function hideGreeting(){
+        
+        document.getElementById("greeting").style.display="none"
+        
+    }
+    function showGreeting(){
+        
+        document.getElementById("greeting").style.display="block"
+    }
+    </script>
+
+
 </body>
 </html>
