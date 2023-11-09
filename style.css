@@ -11,3 +11,11 @@ header, nav, section, footer {
     max-width: 1200px;
     margin: 0 auto;
 }
+header{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+}
