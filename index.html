@@ -39,8 +39,40 @@
         <section id="portfolio">
             <h2>Portfolio</h2>
             <p>Przykłady prac Jana Kowalskiego.</p>
-            <img src="praca1.jpg" alt="Praca 1">
-            <img src="praca2.jpg" alt="Praca 2">
+            
+            <div class="gallery">
+                <input type="checkbox" id="image1">
+                <label for="image1">
+                    <img src="image1.jpg" alt="miniaturka1">
+                </label>
+                
+                <input type="checkbox" id="image2">
+                <label for="image2">
+                    <img src="image2.jpg" alt="miniaturka2">
+                </label>
+
+                <input type="checkbox" id="image3">
+                <label for="image3">
+                    <img src="image3.jpg" alt="miniaturka3">
+                </label>
+
+                <input type="checkbox" id="image4">
+                <label for="image4">
+                    <img src="image4.jpg" alt="miniaturka4">
+                </label>
+
+            </div>
+            <div class="lightbox">
+                <input type="checkbox" id="close">
+                <label for="close" class="close-btn">X</label>
+                <div class="lightbox-content">
+                    <img src="image1" alt="Duzy-obraz1">
+                    <img src="image2" alt="Duzy-obraz2">
+                    <img src="image3" alt="Duzy-obraz3">
+                    <img src="image4" alt="Duzy-obraz4">
+                </div>
+            </div>
+
         </section>
 
         <footer>
