@@ -1,11 +1,13 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color:darkslategray;
 }
 header, nav, section, footer {
     padding: 20px;
     margin: 20px;
     border: 1px solid #ddd;
+
 }
 .container {
     max-width: 1200px;
@@ -14,10 +16,14 @@ header, nav, section, footer {
 header{
     font-family: 'Courier New', Courier, monospace;
     color: aqua;
+    
+    
 }
 nav{
     display: flex;
     justify-content:space-between;
+    background-color: white;
+    border-radius: 10px;
 }
 nav li:hover{
     font-size: 25px;
@@ -25,4 +31,18 @@ nav li:hover{
 }
 #greeting{
 font-size: 30px;
+}
+#o-mnie{
+    background-color: chocolate;
+    border-radius: 15px;
+    margin:40px; 
+    border-color: black;
+}
+
+#portfolio{
+    background-color: brown;
+    border-radius: 25px;
+    margin:40px;
+    
+
 }
