@@ -40,6 +40,24 @@ font-size: 30px;
     border-radius: 15px;
     margin:40px; 
     border-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+#o-mnie img{
+    width: 160px;
+    height: 150px;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+#o-mnie h2{
+    font-size: 30px;
+    padding: 10px;
+}
+
+#o-mnie p{
+    font-size: 20px;
+    padding: 10px;
 }
 
 #portfolio{
@@ -75,11 +93,20 @@ font-size: 30px;
     justify-content: center;
 }
 
+.lightbox-content{
+    text-align: center;
+}
+
 .lightbox-content img{
     max-width: 90%;
     max-height: 90%;
     object-fit: contain;
 }
+
+input[type="checkbox"]:checked + .lightbox {
+    display: flex;
+}
+
 .close-btn {
     position: absolute;
     top: 10px;
@@ -89,6 +116,3 @@ font-size: 30px;
     cursor: pointer;
 }
 
-input[type="checkbox"]:checked + .lightbox {
-    display: flex;
-}
