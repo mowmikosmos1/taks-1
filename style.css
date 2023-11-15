@@ -3,6 +3,13 @@ body {
     font-family: Arial, sans-serif;
     background-color:darkslategray;
 }
+@media only screen and (max-width:600px){
+    body
+    {
+        font-size: 14px;
+    }
+}
+
 header, nav, section, footer {
     padding: 20px;
     margin: 20px;
